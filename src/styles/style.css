@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/Qixingtan.png");
+  background-size: cover;
+  background-position: center;
+}
+.header .header__logo-box {
+  display: flex;
+  padding: 2rem 2rem;
+}
+.header .header__logo-box .header__logo {
+  padding-top: 0.5rem;
+}
+.header .header__logo-box .header__logo img {
+  height: 50px;
+  width: 50px;
+}
+.header .header__logo-box p {
+  font-size: 3rem;
+  font-family: "La Belle Aurore", cursive;
+  color: white;
+}
+.header .navigation {
+  position: fixed;
+  right: 3rem;
+  top: 3rem;
+  z-index: 99;
+}
+.header .header__text-box {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(60, 25, 213, 0.3);
+}
+.header .header__text-box h1 {
+  font-size: 7rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-bottom: 1rem;
+}
+.header .header__text-box h1:hover {
+  transform: skew(5deg, 5deg);
+}
+.header .header__text-box p {
+  font-size: 3rem;
+  font-family: "Noto Sans TC", sans-serif;
+  color: white;
+  margin-bottom: 3rem;
+}
+.header .header__text-box button {
+  padding: 0.5rem 5rem;
+  border-radius: 15px;
+  border: 3px solid white;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+.header .header__text-box button:hover {
+  letter-spacing: 0.5em;
+  color: rgb(19, 246, 239);
+  border: 3px solid rgb(19, 246, 239);
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 35px rgb(19, 246, 239);
+}
+
+.firstPage {
+  background-color: bisque;
+  height: 100vh;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
