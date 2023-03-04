@@ -16,6 +16,7 @@ const homepage = () => {
         <p>準備好開始冒險了嗎？</p>
         <button>Start</button>
       </div>
+      <p className="bg-name">Qixingtan Beach</p>
     </header>
   );
 };
