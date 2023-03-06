@@ -1,0 +1,301 @@
+.secondPage {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/secondpageImg.png");
+  background-position: center;
+  background-size: contain;
+  .secondBg {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    min-height: 100vh;
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      padding: 1rem;
+      font-family: "Roboto", sans-serif;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      transform: translateY(1rem);
+    }
+    .schedule-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .schedule_card {
+        height: 800px;
+        width: 600px;
+        background-color: transparent;
+        margin: 50px;
+        position: relative;
+
+        .schedule_card--front-1 {
+          background-color: white;
+          height: 800px;
+          width: 600px;
+          transition: all 0.8s ease;
+          backface-visibility: hidden;
+          transform-style: preserve-3d;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-radius: 50px;
+          opacity: 0.9;
+          overflow: hidden;
+          .front-1-bg {
+            width: 600px;
+            height: 300px;
+            overflow: hidden;
+
+            background-image: linear-gradient(
+              to right bottom,
+              #7ed56f,
+              #28b485
+            );
+            img {
+              max-width: 100%;
+              opacity: 0.8;
+            }
+          }
+          .front-1-text {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            color: #197a5a;
+            ul {
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              height: 400px;
+              justify-content: space-between;
+
+              h2 {
+                font-size: 3rem;
+              }
+              li {
+                border-bottom: 2px solid #197a5a;
+                width: 200px;
+                text-align: center;
+                padding-bottom: 3px;
+              }
+            }
+          }
+        }
+        .schedule_card--front-2 {
+          background-color: white;
+          height: 800px;
+          width: 600px;
+          transition: all 0.8s ease;
+          backface-visibility: hidden;
+          transform-style: preserve-3d;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-radius: 50px;
+          opacity: 0.9;
+          overflow: hidden;
+          .front-2-bg {
+            width: 600px;
+            height: 300px;
+            overflow: hidden;
+
+            background-image: linear-gradient(
+              to right bottom,
+              #2998ff,
+              #5643fa
+            );
+            img {
+              max-width: 100%;
+              opacity: 0.8;
+            }
+          }
+          .front-2-text {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            color: #5643fa;
+            ul {
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              height: 400px;
+              justify-content: space-between;
+
+              h2 {
+                font-size: 3rem;
+              }
+              li {
+                border-bottom: 2px solid #5643fa;
+                width: 200px;
+                text-align: center;
+                padding-bottom: 3px;
+              }
+            }
+          }
+        }
+        .schedule_card--front-3 {
+          background-color: white;
+          height: 800px;
+          width: 600px;
+          transition: all 0.8s ease;
+          backface-visibility: hidden;
+          transform-style: preserve-3d;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-radius: 50px;
+          opacity: 0.9;
+          overflow: hidden;
+          .front-3-bg {
+            width: 600px;
+            height: 300px;
+            overflow: hidden;
+            background-image: linear-gradient(
+              to right bottom,
+              #ffb900,
+              #ff7730
+            );
+            img {
+              max-width: 100%;
+              opacity: 0.8;
+            }
+          }
+          .front-3-text {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            color: #ff7730;
+            ul {
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              height: 400px;
+              justify-content: space-between;
+
+              h2 {
+                font-size: 3rem;
+              }
+              li {
+                border-bottom: 2px solid #ff7730;
+                width: 200px;
+                text-align: center;
+                padding-bottom: 3px;
+              }
+            }
+          }
+        }
+
+        .schedule_card--back-1 {
+          height: 800px;
+          width: 600px;
+          backface-visibility: hidden;
+          transition: all 0.8s ease;
+          transform-style: preserve-3d;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: rotateY(-180deg);
+          border-radius: 50px;
+          background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          p {
+            color: white;
+            font-size: 6rem;
+          }
+          button {
+            padding: 1rem 5rem;
+            font-size: 2rem;
+            border-radius: 45px;
+            border: none;
+            cursor: pointer;
+            color: #197a5a;
+          }
+        }
+        .schedule_card--back-2 {
+          height: 800px;
+          width: 600px;
+          backface-visibility: hidden;
+          transition: all 0.8s ease;
+          transform-style: preserve-3d;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: rotateY(-180deg);
+          border-radius: 50px;
+          background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          p {
+            color: white;
+            font-size: 6rem;
+          }
+          button {
+            padding: 1rem 5rem;
+            font-size: 2rem;
+            border-radius: 45px;
+            border: none;
+            cursor: pointer;
+            color: #5643fa;
+          }
+        }
+        .schedule_card--back-3 {
+          height: 800px;
+          width: 600px;
+          backface-visibility: hidden;
+          transition: all 0.8s ease;
+          transform-style: preserve-3d;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: rotateY(-180deg);
+          border-radius: 50px;
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          p {
+            color: white;
+            font-size: 6rem;
+          }
+          button {
+            padding: 1rem 5rem;
+            font-size: 2rem;
+            border-radius: 45px;
+            border: none;
+            cursor: pointer;
+            color: #ff7730;
+          }
+        }
+      }
+
+      .schedule_card:hover .schedule_card--front-1 {
+        transform: rotateY(180deg);
+      }
+      .schedule_card:hover .schedule_card--front-2 {
+        transform: rotateY(180deg);
+      }
+      .schedule_card:hover .schedule_card--front-3 {
+        transform: rotateY(180deg);
+      }
+      .schedule_card:hover .schedule_card--back-1 {
+        transform: rotateY(0deg);
+      }
+      .schedule_card:hover .schedule_card--back-2 {
+        transform: rotateY(0deg);
+      }
+      .schedule_card:hover .schedule_card--back-3 {
+        transform: rotateY(0deg);
+      }
+    }
+  }
+}

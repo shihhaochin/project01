@@ -45,7 +45,7 @@
       margin-bottom: 1rem;
     }
     h1:hover {
-      transform: skew(5deg, 5deg);
+      transform: skewY(2deg) skewX(15deg);
     }
 
     p {
