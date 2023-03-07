@@ -7,7 +7,7 @@ const secondPage = () => {
   return (
     <section className="secondPage">
       <div className="secondBg">
-        <h1>~選擇屬於您的專屬旅程~</h1>
+        <h1>選擇屬於您的專屬旅程</h1>
         <div className="schedule-box">
           <div className="schedule_card">
             <div className="schedule_card--front-1">

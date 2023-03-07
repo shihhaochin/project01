@@ -1,0 +1,127 @@
+.fourthPage {
+  background-image: url("../img/fourthpage.png");
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .booking-box {
+    height: 900px;
+    width: 1200px;
+    margin: 1rem;
+    position: relative;
+    .booking-left {
+      .Img-box {
+        height: 300px;
+        width: 750px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+          width: 750px;
+        }
+        .imgFilter-1 {
+          background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+          position: absolute;
+          height: 300px;
+          width: 750px;
+          top: 0;
+          opacity: 0.3;
+        }
+        .imgFilter-2 {
+          background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+          position: absolute;
+          height: 300px;
+          width: 750px;
+          top: 0;
+          opacity: 0.3;
+        }
+        .imgFilter-3 {
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+          position: absolute;
+          height: 300px;
+          width: 750px;
+          top: 0;
+          opacity: 0.3;
+        }
+        .easyText {
+          position: absolute;
+          bottom: 0;
+          font-size: 3rem;
+          background-color: #28b485cd;
+          color: white;
+          padding: 1rem;
+        }
+        .mediumText {
+          position: absolute;
+          bottom: 0;
+          font-size: 3rem;
+          background-color: #5543fac4;
+          color: white;
+          padding: 1rem;
+        }
+        .hardText {
+          position: absolute;
+          bottom: 0;
+          font-size: 3rem;
+          background-color: #ff7830b0;
+          color: white;
+          padding: 1rem;
+        }
+      }
+    }
+    .booking-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(
+        75deg,
+        transparent 50%,
+        rgb(11, 38, 45) 50%
+      );
+      height: 900px;
+      width: 1200px;
+      display: flex;
+      justify-content: space-evenly;
+
+      .booking-right-left {
+        width: 500px;
+        height: 900px;
+      }
+      .booking-right-input {
+        width: 500px;
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        input {
+          outline: none;
+          font-size: 2rem;
+          color: white;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 5px;
+          border: none;
+          width: 300px;
+        }
+        select {
+          width: 300px;
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          font-size: 2rem;
+          outline: none;
+          border: none;
+        }
+        button {
+          font-size: 2rem;
+          padding: 1rem 5rem;
+          border-radius: 35px;
+          cursor: pointer;
+          border: none;
+        }
+      }
+    }
+  }
+}

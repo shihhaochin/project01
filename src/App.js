@@ -2,6 +2,8 @@ import React from "react";
 import Homepage from "./pages/homepage";
 import FirstPage from "./pages/firstPage";
 import SecondPage from "./pages/secondPage";
+import ThirdPage from "./pages/thirdPage";
+import FourthPage from "./pages/fourthPage";
 import "./styles/style.css";
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       <Homepage />
       <FirstPage />
       <SecondPage />
+      <ThirdPage />
+      <FourthPage />
     </div>
   );
 }
