@@ -5,7 +5,7 @@ import rareeImg from "../img/Rareseed.png";
 
 const fourthPage = () => {
   return (
-    <section className="fourthPage">
+    <section className="fourthPage" id="fourthPage">
       <div className="booking-box">
         <div className="booking-left">
           <div className="Img-box">

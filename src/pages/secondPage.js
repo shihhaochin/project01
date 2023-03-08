@@ -2,10 +2,11 @@ import React from "react";
 import taroko from "../img/taroko.png";
 import ocean from "../img/oceanpark.png";
 import rareseed from "../img/Rareseed.png";
+import { HashLink } from "react-router-hash-link";
 
 const secondPage = () => {
   return (
-    <section className="secondPage">
+    <section className="secondPage" id="secondPage">
       <div className="secondBg">
         <h1>選擇屬於您的專屬旅程</h1>
         <div className="schedule-box">
@@ -26,8 +27,10 @@ const secondPage = () => {
               </div>
             </div>
             <div className="schedule_card--back-1">
-              <p>4900元</p>
-              <button>詳細行程</button>
+              <p>TWD 5,900 </p>
+              <button>
+                <HashLink to="#fourthPage">馬上預約</HashLink>
+              </button>
             </div>
           </div>
           <div className="schedule_card">
@@ -47,8 +50,10 @@ const secondPage = () => {
               </div>
             </div>
             <div className="schedule_card--back-2">
-              <p>6900元</p>
-              <button>詳細行程</button>
+              <p>TWD 9,900</p>
+              <button>
+                <HashLink to="#fourthPage">馬上預約</HashLink>
+              </button>
             </div>
           </div>
           <div className="schedule_card">
@@ -68,8 +73,10 @@ const secondPage = () => {
               </div>
             </div>
             <div className="schedule_card--back-3">
-              <p>10900元</p>
-              <button>詳細行程</button>
+              <p>TWD 13,900</p>
+              <button>
+                <HashLink to="#fourthPage">馬上預約</HashLink>
+              </button>
             </div>
           </div>
         </div>

@@ -215,7 +215,18 @@
             border-radius: 45px;
             border: none;
             cursor: pointer;
-            color: #197a5a;
+            transition: 0.3s;
+
+            a,
+            a:link,
+            a:visited {
+              color: #28b485;
+              text-decoration: none;
+            }
+          }
+          button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0.1em 0.1em 0.3em black;
           }
         }
         .schedule_card--back-2 {
@@ -244,7 +255,17 @@
             border-radius: 45px;
             border: none;
             cursor: pointer;
-            color: #5643fa;
+            transition: 0.3s;
+            a,
+            a:link,
+            a:visited {
+              color: #5643fa;
+              text-decoration: none;
+            }
+          }
+          button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0.1em 0.1em 0.3em black;
           }
         }
         .schedule_card--back-3 {
@@ -273,7 +294,18 @@
             border-radius: 45px;
             border: none;
             cursor: pointer;
-            color: #ff7730;
+            transition: 0.3s;
+
+            a,
+            a:link,
+            a:visited {
+              color: #ff7730;
+              text-decoration: none;
+            }
+          }
+          button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0.1em 0.1em 0.3em black;
           }
         }
       }
@@ -297,5 +329,21 @@
         transform: rotateY(0deg);
       }
     }
+  }
+}
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }

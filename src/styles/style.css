@@ -15,6 +15,7 @@ body {
   background-image: url("../img/Qixingtan.png");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .header .header__logo-box {
   display: flex;
@@ -37,6 +38,111 @@ body {
   right: 3rem;
   top: 3rem;
   z-index: 99;
+}
+.header .navigation .navi-icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.header .navigation .navi-icon-box .navi-icon-1 {
+  width: 35px;
+  height: 4px;
+  background-color: aqua;
+}
+.header .navigation .navi-icon-box .navi-icon-2 {
+  width: 35px;
+  height: 4px;
+  background-color: aqua;
+  transition: all 0.5s;
+}
+.header .navigation .navi-icon-box .navi-icon-3 {
+  width: 35px;
+  height: 4px;
+  background-color: aqua;
+  transition: all 0.5s;
+}
+.header .navigationOpen {
+  position: fixed;
+  right: 3rem;
+  top: 3rem;
+  z-index: 99;
+}
+.header .navigationOpen .navi-icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.header .navigationOpen .navi-icon-box .navi-icon-2 {
+  width: 35px;
+  height: 4px;
+  background-color: aqua;
+  transform: rotateZ(45deg);
+  transition: all 0.5s;
+}
+.header .navigationOpen .navi-icon-box .navi-icon-3 {
+  width: 35px;
+  height: 4px;
+  background-color: aqua;
+  transform: translateY(-30px) rotateZ(135deg);
+  transition: all 0.5s;
+}
+.header .navi-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .navi-content ul {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.header .navi-content ul li {
+  font-size: 3rem;
+  color: #5ff7e8;
+  cursor: pointer;
+  position: relative;
+}
+.header .navi-content ul li a,
+.header .navi-content ul li a:link,
+.header .navi-content ul li a:visited {
+  color: #5ff7e8;
+  text-decoration: none;
+}
+.header .navi-content ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #5ff7e8;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.5s;
+}
+.header .navi-content ul li:hover::after {
+  width: 100%;
 }
 .header .header__text-box {
   height: 100vh;
@@ -371,7 +477,17 @@ body {
   border-radius: 45px;
   border: none;
   cursor: pointer;
-  color: #197a5a;
+  transition: 0.3s;
+}
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 button a,
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 button a:link,
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 button a:visited {
+  color: #28b485;
+  text-decoration: none;
+}
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0.1em 0.1em 0.3em black;
 }
 .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 {
   height: 800px;
@@ -401,7 +517,17 @@ body {
   border-radius: 45px;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+}
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 button a,
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 button a:link,
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 button a:visited {
   color: #5643fa;
+  text-decoration: none;
+}
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0.1em 0.1em 0.3em black;
 }
 .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 {
   height: 800px;
@@ -431,7 +557,17 @@ body {
   border-radius: 45px;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+}
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 button a,
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 button a:link,
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 button a:visited {
   color: #ff7730;
+  text-decoration: none;
+}
+.secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0.1em 0.1em 0.3em black;
 }
 .secondPage .secondBg .schedule-box .schedule_card:hover .schedule_card--front-1 {
   transform: rotateY(180deg);
@@ -452,6 +588,21 @@ body {
   transform: rotateY(0deg);
 }
 
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 .thirdPage {
   min-height: 100vh;
   width: 100%;
@@ -635,10 +786,12 @@ body {
 .fourthPage .booking-box .booking-right .booking-right-input select {
   width: 300px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 2rem;
   outline: none;
   border: none;
+  cursor: pointer;
+  padding: 5px;
 }
 .fourthPage .booking-box .booking-right .booking-right-input button {
   font-size: 2rem;
@@ -646,4 +799,63 @@ body {
   border-radius: 35px;
   cursor: pointer;
   border: none;
+  transition: 0.5s;
+}
+.fourthPage .booking-box .booking-right .booking-right-input button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+footer {
+  height: 30vh;
+  background-color: rgba(19, 165, 165, 0.728);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer-head {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+}
+footer .footer-head .footer-logo img {
+  width: 40px;
+  height: 40px;
+}
+footer .footer-head h2 {
+  font-size: 2rem;
+  color: black;
+  font-family: "La Belle Aurore", cursive;
+}
+footer .footer-nav ul {
+  width: 800px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+footer .footer-nav ul li {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+footer .footer-nav ul li:hover {
+  transform: scale(1.3);
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+footer .footer-img {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footer-img img {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+footer .footer-img img:hover {
+  transform: translateY(-5px);
 }/*# sourceMappingURL=style.css.map */

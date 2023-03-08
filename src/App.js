@@ -4,6 +4,7 @@ import FirstPage from "./pages/firstPage";
 import SecondPage from "./pages/secondPage";
 import ThirdPage from "./pages/thirdPage";
 import FourthPage from "./pages/fourthPage";
+import Footer from "./pages/footer";
 import "./styles/style.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <Footer />
     </div>
   );
 }

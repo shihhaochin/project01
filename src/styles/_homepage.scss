@@ -4,6 +4,7 @@
   background-image: url("../img/Qixingtan.png");
   background-size: cover;
   background-position: center;
+  position: relative;
 
   .header__logo-box {
     display: flex;
@@ -27,7 +28,117 @@
     right: 3rem;
     top: 3rem;
     z-index: 99;
+
+    .navi-icon-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      cursor: pointer;
+
+      .navi-icon-1 {
+        width: 35px;
+        height: 4px;
+        background-color: aqua;
+      }
+      .navi-icon-2 {
+        width: 35px;
+        height: 4px;
+        background-color: aqua;
+        transition: all 0.5s;
+      }
+      .navi-icon-3 {
+        width: 35px;
+        height: 4px;
+        background-color: aqua;
+        transition: all 0.5s;
+      }
+    }
   }
+  .navigationOpen {
+    position: fixed;
+    right: 3rem;
+    top: 3rem;
+    z-index: 99;
+
+    .navi-icon-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+
+      .navi-icon-2 {
+        width: 35px;
+        height: 4px;
+        background-color: aqua;
+        transform: rotateZ(45deg);
+        transition: all 0.5s;
+      }
+      .navi-icon-3 {
+        width: 35px;
+        height: 4px;
+        background-color: aqua;
+        transform: translateY(-30px) rotateZ(135deg);
+        transition: all 0.5s;
+      }
+    }
+  }
+  .navi-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      width: 80%;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+      li {
+        font-size: 3rem;
+        color: #5ff7e8;
+        cursor: pointer;
+        position: relative;
+        a,
+        a:link,
+        a:visited {
+          color: #5ff7e8;
+          text-decoration: none;
+        }
+      }
+      li::after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background-color: #5ff7e8;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        transition: 0.5s;
+      }
+      li:hover::after {
+        width: 100%;
+      }
+    }
+  }
+
   .header__text-box {
     height: 100vh;
     width: 100%;

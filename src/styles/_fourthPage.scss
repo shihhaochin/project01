@@ -109,10 +109,12 @@
         select {
           width: 300px;
           background-color: rgba(0, 0, 0, 0.5);
-          color: white;
+          color: rgba(255, 255, 255, 0.8);
           font-size: 2rem;
           outline: none;
           border: none;
+          cursor: pointer;
+          padding: 5px;
         }
         button {
           font-size: 2rem;
@@ -120,6 +122,11 @@
           border-radius: 35px;
           cursor: pointer;
           border: none;
+          transition: 0.5s;
+        }
+        button:hover {
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
         }
       }
     }

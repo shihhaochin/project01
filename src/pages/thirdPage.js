@@ -4,7 +4,7 @@ import headshot2 from "../img/headshot2.png";
 
 const thirdPage = () => {
   return (
-    <section className="thirdPage">
+    <section className="thirdPage" id="thirdPage">
       <div className="thirdPage-bg">
         <h1>冒險心得</h1>
         <div className="message--card">
