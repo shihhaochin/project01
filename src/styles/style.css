@@ -858,4 +858,30 @@ footer .footer-img img {
 }
 footer .footer-img img:hover {
   transform: translateY(-5px);
+}
+
+@media screen and (max-height: 1000px) {
+  header .header__logo-box .header__logo img {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  header .header__logo-box p {
+    font-size: 2rem !important;
+  }
+  header .header__text-box h1 {
+    font-size: 5rem !important;
+  }
+  header .header__text-box p {
+    font-size: 2rem !important;
+  }
+  header .header__text-box button {
+    font-size: 1rem !important;
+    padding: 0.1rem 3rem !important;
+  }
+  header .bg-name {
+    font-size: 3rem !important;
+  }
+  header .navigation {
+    right: 3rem !important;
+  }
 }/*# sourceMappingURL=style.css.map */
