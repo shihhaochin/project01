@@ -1,9 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.906249bd.css",
-    "main.js": "./static/js/main.f0f2efe2.js",
-    "static/media/headshot2.png": "./static/media/headshot2.4c5ea11f73fd2176cd29.png",
-    "static/media/headshot1.png": "./static/media/headshot1.68ac2bf92b2ca7e3c167.png",
+    "main.js": "./static/js/main.6da43d8e.js",
     "static/media/oceanpark.png": "./static/media/oceanpark.ce3e1e4a705ca28760b4.png",
     "static/media/secondpageImg.png": "./static/media/secondpageImg.a8ea201bea34accd57bc.png",
     "static/media/Rareseed.png": "./static/media/Rareseed.6500e1f75b48b2ce4cea.png",
@@ -11,6 +9,8 @@
     "static/media/thirdpage.png": "./static/media/thirdpage.109cc29d2240482b8338.png",
     "static/media/fourthpage.png": "./static/media/fourthpage.241fdef9b2c5277fbb0d.png",
     "static/media/Qixingtan.png": "./static/media/Qixingtan.c4f4864f414219d85575.png",
+    "static/media/headshot1.png": "./static/media/headshot1.8c6bd3ce2693fccacc9d.png",
+    "static/media/headshot2.png": "./static/media/headshot2.42459246c646c10291ad.png",
     "static/media/firstpage.png": "./static/media/firstpage.6474eeaef675eb9d97bb.png",
     "static/media/ttoroko-text.png": "./static/media/ttoroko-text.cc2598d5daa25fce70f5.png",
     "static/media/ocean-text.png": "./static/media/ocean-text.e29a64645800e3a51352.png",
@@ -22,10 +22,10 @@
     "static/media/youtube.svg": "./static/media/youtube.faaa42d0a511adcde6e9c3357bb7af2b.svg",
     "static/media/facebook.svg": "./static/media/facebook.e92cea7cb91c316e5ed0b296f842e2bb.svg",
     "main.906249bd.css.map": "./static/css/main.906249bd.css.map",
-    "main.f0f2efe2.js.map": "./static/js/main.f0f2efe2.js.map"
+    "main.6da43d8e.js.map": "./static/js/main.6da43d8e.js.map"
   },
   "entrypoints": [
     "static/css/main.906249bd.css",
-    "static/js/main.f0f2efe2.js"
+    "static/js/main.6da43d8e.js"
   ]
 }
