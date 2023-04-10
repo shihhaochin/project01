@@ -227,3 +227,133 @@ body {
     }
   }
 }
+@media screen and (max-width: 800px) {
+  .fourthPage {
+    .booking-box {
+      width: 100% !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: auto !important;
+
+      flex-wrap: wrap;
+      margin: 0 !important;
+      .booking-left {
+        width: 100%;
+        .Img-box {
+          width: 100% !important;
+        }
+      }
+      .booking-right {
+        position: relative !important;
+        background-color: rgb(11, 38, 45) !important;
+        height: 300px !important;
+        width: 100% !important;
+        .booking-right-left {
+          display: none;
+        }
+        .booking-right-input {
+          width: 100% !important;
+          margin: 0 !important;
+          input {
+            font-size: 1rem;
+            width: 95%;
+          }
+          select {
+            font-size: 1rem !important;
+            width: 95% !important;
+          }
+          button {
+            font-size: 1rem !important;
+            padding: 0.5rem 3rem !important;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    .footer-head {
+      width: 100% !important;
+    }
+    .footer-nav {
+      width: 100%;
+      ul {
+        width: 100% !important;
+        font-size: 1rem !important;
+      }
+    }
+    .footer-img {
+      width: 100% !important;
+    }
+  }
+  .header {
+    .navigation {
+      right: 1rem !important;
+      top: 1rem !important;
+    }
+    .header__text-box {
+      h1 {
+        font-size: 3rem !important;
+      }
+      p {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+  .firstPage {
+    .tourist-box {
+      padding: 0 !important;
+      height: 100vh;
+      justify-content: center;
+      gap: 50px;
+
+      .touristSpot {
+        max-width: 375px !important;
+        height: 280px !important;
+        margin-bottom: 40px;
+        .carousel {
+          .carousel__Img-box {
+            img {
+              width: 375px !important;
+              height: 280px !important;
+            }
+          }
+        }
+      }
+      .control-btn {
+        bottom: 45% !important;
+        background-color: rgba(0, 0, 0, 0.8);
+
+        .left-btn {
+          margin-right: 250px !important;
+        }
+      }
+      .touristText {
+        max-width: 375px !important;
+        height: 280px !important;
+        margin-top: 40px;
+
+        .carousel-text {
+          .carousel__text-box {
+            img {
+              width: 375px !important;
+              height: 280px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .thirdPage {
+    .thirdPage-bg {
+      .message--card {
+        width: 375px !important;
+        .message--card-left {
+          margin: 0 1rem !important;
+        }
+      }
+    }
+  }
+}

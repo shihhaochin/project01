@@ -5,13 +5,13 @@
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   .booking-box {
-    height: 900px;
-    width: 1200px;
     margin: 1rem;
     position: relative;
+    margin-left: 5rem;
+
     .booking-left {
       .Img-box {
         height: 300px;
