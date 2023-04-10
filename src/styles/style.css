@@ -689,7 +689,7 @@ body {
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .fourthPage .booking-box {
