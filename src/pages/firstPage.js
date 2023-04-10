@@ -26,7 +26,6 @@ const firstPage = () => {
 
   return (
     <div className="firstPage" id="firstPage">
-      <div className="firstPage-filter"></div>
       <div className="tourist-box">
         <section className="touristSpot">
           <Carousel slides={slides} curr={curr} />

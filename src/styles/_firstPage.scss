@@ -5,18 +5,13 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  .firstPage-filter {
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-  }
 
   .tourist-box {
     padding: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     position: relative;
 
     .touristSpot {
@@ -43,25 +38,34 @@
 
       .left-btn {
         margin-right: 55rem;
+        cursor: pointer;
 
         padding: 0.7rem;
         border-radius: 45px;
         background-color: rgba(255, 255, 255, 0.5);
+        transition: 0.3s;
         img {
           height: 40px;
           width: 40px;
-          cursor: pointer;
         }
       }
+      .left-btn:hover {
+        background-color: #fff;
+      }
+
       .right-btn {
         padding: 0.7rem;
         border-radius: 45px;
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.5);
+        transition: 0.3s;
         img {
           height: 40px;
           width: 40px;
         }
+      }
+      .right-btn:hover {
+        background-color: #fff;
       }
     }
     .touristText {

@@ -48,4 +48,182 @@ body {
       right: 3rem !important;
     }
   }
+  .fourthPage {
+    .booking-box {
+      height: 600px !important;
+      width: 800px !important;
+      .booking-left {
+        .Img-box {
+          height: 200px !important;
+          width: 500px !important;
+        }
+      }
+      .booking-right {
+        height: 600px !important;
+        width: 800px !important;
+      }
+    }
+  }
+
+  .firstPage {
+    .tourist-box {
+      .touristSpot {
+        max-width: 400px !important;
+        .carousel {
+          .carousel__Img-box {
+            img {
+              height: 300px !important;
+              width: 400px !important;
+            }
+          }
+        }
+      }
+      .touristText {
+        max-width: 400px !important;
+        height: 300px !important;
+        .carousel-text {
+          .carousel__text-box {
+            img {
+              height: 300px !important;
+              width: 400px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .secondPage {
+    .secondBg {
+      h1 {
+        font-size: 2rem !important;
+      }
+      .schedule-box {
+        .schedule_card {
+          height: 400px !important;
+          width: 300px !important;
+          .schedule_card--front-1 {
+            height: 400px !important;
+            width: 300px !important;
+            .front-1-bg {
+              width: 300px !important;
+              height: 150px !important;
+            }
+            .front-1-text {
+              ul {
+                height: 200px !important;
+                h2 {
+                  font-size: 2rem !important;
+                }
+              }
+            }
+          }
+          .schedule_card--back-1 {
+            height: 400px !important;
+            width: 300px !important;
+            p {
+              font-size: 3rem !important;
+            }
+            button {
+              font-size: 1rem !important;
+            }
+          }
+          .schedule_card--front-2 {
+            height: 400px !important;
+            width: 300px !important;
+            .front-2-bg {
+              width: 300px !important;
+              height: 150px !important;
+            }
+            .front-2-text {
+              ul {
+                height: 200px !important;
+                h2 {
+                  font-size: 2rem !important;
+                }
+              }
+            }
+          }
+          .schedule_card--back-2 {
+            height: 400px !important;
+            width: 300px !important;
+            p {
+              font-size: 3rem !important;
+            }
+            button {
+              font-size: 1rem !important;
+            }
+          }
+          .schedule_card--front-3 {
+            height: 400px !important;
+            width: 300px !important;
+            .front-3-bg {
+              width: 300px !important;
+              height: 150px !important;
+            }
+            .front-3-text {
+              ul {
+                height: 200px !important;
+                h2 {
+                  font-size: 2rem !important;
+                }
+              }
+            }
+          }
+          .schedule_card--back-3 {
+            height: 400px !important;
+            width: 300px !important;
+            p {
+              font-size: 3rem !important;
+            }
+            button {
+              font-size: 1rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .thirdPage {
+    .thirdPage-bg {
+      h1 {
+        font-size: 2rem !important;
+      }
+      .message--card {
+        height: 200px !important;
+        width: 400px !important;
+        .message--card-left {
+          height: 100px !important;
+          width: 100px !important;
+          img {
+            height: 120px !important;
+            width: 120px !important;
+          }
+          p {
+            font-size: 2rem !important;
+            height: 100px !important;
+            width: 100px !important;
+            padding: 75px 0 !important;
+          }
+        }
+        .message--card-left:hover p {
+          top: -35px !important;
+        }
+        .message--card-right {
+          width: 200px !important;
+          h2 {
+            font-size: 1rem !important;
+          }
+          p {
+            font-size: 0.5rem !important;
+            margin-top: 1rem !important;
+          }
+          .message-email {
+            width: 200px !important;
+          }
+        }
+      }
+    }
+  }
 }

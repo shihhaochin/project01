@@ -205,17 +205,12 @@ body {
   background-position: center;
   position: relative;
 }
-.firstPage .firstPage-filter {
-  height: 100vh;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-}
 .firstPage .tourist-box {
   padding: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   position: relative;
 }
 .firstPage .tourist-box .touristSpot {
@@ -238,24 +233,32 @@ body {
 }
 .firstPage .tourist-box .control-btn .left-btn {
   margin-right: 55rem;
+  cursor: pointer;
   padding: 0.7rem;
   border-radius: 45px;
   background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
 }
 .firstPage .tourist-box .control-btn .left-btn img {
   height: 40px;
   width: 40px;
-  cursor: pointer;
+}
+.firstPage .tourist-box .control-btn .left-btn:hover {
+  background-color: #fff;
 }
 .firstPage .tourist-box .control-btn .right-btn {
   padding: 0.7rem;
   border-radius: 45px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
 }
 .firstPage .tourist-box .control-btn .right-btn img {
   height: 40px;
   width: 40px;
+}
+.firstPage .tourist-box .control-btn .right-btn:hover {
+  background-color: #fff;
 }
 .firstPage .tourist-box .touristText {
   overflow: hidden;
@@ -883,5 +886,148 @@ footer .footer-img img:hover {
   }
   header .navigation {
     right: 3rem !important;
+  }
+  .fourthPage .booking-box {
+    height: 600px !important;
+    width: 800px !important;
+  }
+  .fourthPage .booking-box .booking-left .Img-box {
+    height: 200px !important;
+    width: 500px !important;
+  }
+  .fourthPage .booking-box .booking-right {
+    height: 600px !important;
+    width: 800px !important;
+  }
+  .firstPage .tourist-box .touristSpot {
+    max-width: 400px !important;
+  }
+  .firstPage .tourist-box .touristSpot .carousel .carousel__Img-box img {
+    height: 300px !important;
+    width: 400px !important;
+  }
+  .firstPage .tourist-box .touristText {
+    max-width: 400px !important;
+    height: 300px !important;
+  }
+  .firstPage .tourist-box .touristText .carousel-text .carousel__text-box img {
+    height: 300px !important;
+    width: 400px !important;
+  }
+  .secondPage .secondBg h1 {
+    font-size: 2rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-1 {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-1 .front-1-bg {
+    width: 300px !important;
+    height: 150px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-1 .front-1-text ul {
+    height: 200px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-1 .front-1-text ul h2 {
+    font-size: 2rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 p {
+    font-size: 3rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-1 button {
+    font-size: 1rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-2 {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-2 .front-2-bg {
+    width: 300px !important;
+    height: 150px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-2 .front-2-text ul {
+    height: 200px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-2 .front-2-text ul h2 {
+    font-size: 2rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 p {
+    font-size: 3rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-2 button {
+    font-size: 1rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-3 {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-3 .front-3-bg {
+    width: 300px !important;
+    height: 150px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-3 .front-3-text ul {
+    height: 200px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--front-3 .front-3-text ul h2 {
+    font-size: 2rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 p {
+    font-size: 3rem !important;
+  }
+  .secondPage .secondBg .schedule-box .schedule_card .schedule_card--back-3 button {
+    font-size: 1rem !important;
+  }
+  .thirdPage .thirdPage-bg h1 {
+    font-size: 2rem !important;
+  }
+  .thirdPage .thirdPage-bg .message--card {
+    height: 200px !important;
+    width: 400px !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-left {
+    height: 100px !important;
+    width: 100px !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-left img {
+    height: 120px !important;
+    width: 120px !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-left p {
+    font-size: 2rem !important;
+    height: 100px !important;
+    width: 100px !important;
+    padding: 75px 0 !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-left:hover p {
+    top: -35px !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-right {
+    width: 200px !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-right h2 {
+    font-size: 1rem !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-right p {
+    font-size: 0.5rem !important;
+    margin-top: 1rem !important;
+  }
+  .thirdPage .thirdPage-bg .message--card .message--card-right .message-email {
+    width: 200px !important;
   }
 }/*# sourceMappingURL=style.css.map */
